@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Desarrollador de Software</title>
+    <!-- Integración de FontAwesome para íconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         /* Estilos globales */
         body {
@@ -91,6 +93,23 @@
             border-radius: 4px;
         }
 
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .skill-item i,
+        .skill-item img {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        .skill-item img {
+            width: 32px;
+            height: 32px;
+        }
+
         footer {
             background-color: #007bff;
             color: #fff;
@@ -161,12 +180,34 @@
     <section id="skills">
         <div class="container">
             <h2 class="section-title">Habilidades</h2>
-            <ul>
-                <li>Lenguajes de programación: Java, JavaScript, Python</li>
-                <li>Frameworks: Spring Boot, React, Django</li>
-                <li>Bases de datos: MySQL, PostgreSQL</li>
-                <li>Metodologías: Agile, SCRUM</li>
-            </ul>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+                <span>Spring Boot</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-plain.svg" alt="Hibernate">
+                <span>Hibernate</span>
+            </div>
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle">
+                <span>Oracle</span>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-project-diagram"></i>
+                <span>SCRUM</span>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-cubes"></i>
+                <span>Microservices</span>
+            </div>
         </div>
     </section>
 
