@@ -1,0 +1,25 @@
+
+> ronald-portfolio@0.0.0 build
+> ng build
+
+[33m❯[39m Building...
+[32m✔[39m Building...
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-53V36EFA.js[39m    [2m | [22m[2m-[22m                 [2m | [22m[36m157.61 kB[39m[2m | [22m               [36m44.57 kB[39m
+[32mmain-HB243UYF.js[39m     [2m | [22m[2mmain[22m              [2m | [22m [36m93.65 kB[39m[2m | [22m               [36m23.32 kB[39m
+[32mpolyfills-FFHMD2TL.js[39m[2m | [22m[2mpolyfills[22m         [2m | [22m [36m34.52 kB[39m[2m | [22m               [36m11.28 kB[39m
+[32mstyles-LWWXPJGV.css[39m  [2m | [22m[2mstyles[22m            [2m | [22m  [36m5.35 kB[39m[2m | [22m                [36m1.02 kB[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m     [2m | [22m[1m291.13 kB[22m[2m | [22m               [1m80.20 kB[22m
+
+[1mLazy chunk files[22m     [2m | [22m[1mNames[22m             [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-BVAMZY27.js[39m    [2m | [22m[2mcontact-component[22m [2m | [22m  [36m3.52 kB[39m[2m | [22m                [36m1.27 kB[39m
+[32mchunk-ZKBBI5SY.js[39m    [2m | [22m[2mskills-component[22m  [2m | [22m  [36m3.38 kB[39m[2m | [22m                [36m1.31 kB[39m
+[32mchunk-TU7P4XML.js[39m    [2m | [22m[2mprojects-component[22m[2m | [22m  [36m3.28 kB[39m[2m | [22m                [36m1.21 kB[39m
+[32mchunk-NRIHWZEX.js[39m    [2m | [22m[2mhome-component[22m    [2m | [22m  [36m2.20 kB[39m[2m | [22m              [36m902 bytes[39m
+[32mchunk-4X3W2MCU.js[39m    [2m | [22m[2m-[22m                 [2m | [22m[36m296 bytes[39m[2m | [22m              [36m296 bytes[39m
+
+Application bundle generation complete. [12.807 seconds]
+
+Output location: F:\DEV\GRAVITY_R2G\ronald1781.github.io\dist\ronald-portfolio
+

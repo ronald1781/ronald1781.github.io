@@ -1,0 +1,141 @@
+/* App Layout Styling */
+.app-container {
+  /* Let global styles handle flex baseline */
+}
+
+/* DESKTOP NAV (default hidden, shown md+) */
+.desktop-nav {
+  display: none; /* hidden on small screens */
+}
+
+/* MOBILE BOTTOM NAV */
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 20px 20px 0 0;
+  border-bottom: none;
+  padding-bottom: env(safe-area-inset-bottom, 0); /* iPhone safe area */
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-secondary);
+  flex: 1;
+  height: 100%;
+  transition: var(--transition-smooth);
+}
+
+.nav-item i {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+.nav-label {
+  font-size: 0.65rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.nav-item.active {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.nav-item.active i {
+  text-shadow: 0 0 10px var(--primary-glow);
+}
+
+.nav-item.active .nav-label {
+  opacity: 1;
+}
+
+/* RESPONSIVE: TABLET / DESKTOP */
+@media (min-width: 768px) {
+  .mobile-bottom-nav {
+    display: none; /* Hide bottom nav */
+  }
+
+  /* Show Top Navigation */
+  .desktop-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--nav-height);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 1000;
+    border-radius: 0 0 16px 16px;
+    border-top: none;
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .brand-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .brand-text h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .brand-text span {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: var(--transition-smooth);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+
+  .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+  }
+
+  .nav-links a.active {
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.1);
+  }
+}

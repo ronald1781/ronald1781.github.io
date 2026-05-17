@@ -1,0 +1,55 @@
+<div class="app-container animate-fade-in">
+
+  <!-- Desktop Top/Side Navigation (hidden on mobile, shown on md+) -->
+  <header class="desktop-nav glass-panel">
+    <div class="nav-brand">
+      <div class="brand-avatar">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <div class="brand-text">
+        <h3>Ronald Portfolio</h3>
+        <span>Software Developer</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fa-solid fa-house"></i> <span>Inicio</span>
+      </a>
+      <a routerLink="/projects" routerLinkActive="active">
+        <i class="fa-solid fa-briefcase"></i> <span>Proyectos</span>
+      </a>
+      <a routerLink="/skills" routerLinkActive="active">
+        <i class="fa-solid fa-bolt"></i> <span>Habilidades</span>
+      </a>
+      <a routerLink="/contact" routerLinkActive="active">
+        <i class="fa-solid fa-envelope"></i> <span>Contacto</span>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main Scrollable Content Area -->
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Mobile Bottom Navigation (shown on mobile, hidden on md+) -->
+  <nav class="mobile-bottom-nav glass-panel">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-item">
+      <i class="fa-solid fa-house"></i>
+      <span class="nav-label">Inicio</span>
+    </a>
+    <a routerLink="/projects" routerLinkActive="active" class="nav-item">
+      <i class="fa-solid fa-briefcase"></i>
+      <span class="nav-label">Proyectos</span>
+    </a>
+    <a routerLink="/skills" routerLinkActive="active" class="nav-item">
+      <i class="fa-solid fa-bolt"></i>
+      <span class="nav-label">Habilidades</span>
+    </a>
+    <a routerLink="/contact" routerLinkActive="active" class="nav-item">
+      <i class="fa-solid fa-envelope"></i>
+      <span class="nav-label">Contacto</span>
+    </a>
+  </nav>
+
+</div>
