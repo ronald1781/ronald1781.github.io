@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "name": "Ronald",
+    "title": "Desarrollador de Software",
+    "about": "Soy un desarrollador de software con pasión por la tecnología y la creación de soluciones innovadoras. Tengo experiencia en una amplia gama de tecnologías y disfruto enfrentando nuevos desafíos.",
+    "email": "tuemail@ejemplo.com"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Proyecto 1",
+      "description": "Plataforma de gestión de tareas con Spring Boot y React.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Proyecto 2",
+      "description": "Sistema de comercio electrónico usando Django y Vue.js.",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Proyecto 3",
+      "description": "Aplicación móvil para el seguimiento de hábitos con Flutter.",
+      "link": "#"
+    }
+  ],
+  "skills": [
+    { "name": "Java", "icon": "java-original" },
+    { "name": "Spring Boot", "icon": "spring-original" },
+    { "name": "Hibernate", "icon": "hibernate-plain" },
+    { "name": "Oracle", "icon": "oracle-original" },
+    { "name": "Git", "icon": "fab fa-git-alt" },
+    { "name": "SCRUM", "icon": "fas fa-project-diagram" },
+    { "name": "Microservices", "icon": "fas fa-cubes" }
+  ]
+}
