@@ -1,37 +1,47 @@
 {
   "profile": {
-    "name": "Ronald",
-    "title": "Desarrollador de Software",
-    "about": "Soy un desarrollador de software con pasión por la tecnología y la creación de soluciones innovadoras. Tengo experiencia en una amplia gama de tecnologías y disfruto enfrentando nuevos desafíos.",
-    "email": "tuemail@ejemplo.com"
+    "name": "Ronald Gutierrez",
+    "title": "Technical Lead | Software Engeniere Senior | Java",
+    "about": "Con Amplia experiencia en tecnologías de la Información y desarrollo, participando de todo el ciclo de vida de desarrollo de software, proporcionando soluciones para clientes, especialmente utilizando Java, Spring, desde el frente Backend (Micro-Servicios) y Frontend (Micro-Front), Experiencia en programacion con IA tambien creacion de agentes IA Basicos. Soy un apasionado de la tecnología y busco aportar a la sociedad con soluciones de tecnología. Experiencia liderando equipos, Gestionando los proyectos logrando resultados.",
+    "email": "ronald1781@gmail.com"
   },
   "projects": [
     {
       "id": 1,
-      "name": "Proyecto 1",
-      "description": "Plataforma de gestión de tareas con Spring Boot y React.",
+      "name": "NTT DATA Europe & Latam - Tech Lead / Backend Expert",
+      "description": "Desarrollo de Microservices para sector público Europeo y financiero. 4 años 6 meses.",
       "link": "#"
     },
     {
       "id": 2,
-      "name": "Proyecto 2",
-      "description": "Sistema de comercio electrónico usando Django y Vue.js.",
+      "name": "M&M Repuestos y Servicios - Full Stack Engineer",
+      "description": "11 años 8 meses. Desarrollo y mantenimiento de soluciones Full Stack.",
       "link": "#"
     },
     {
       "id": 3,
-      "name": "Proyecto 3",
-      "description": "Aplicación móvil para el seguimiento de hábitos con Flutter.",
+      "name": "Otras Experiencias Destacadas",
+      "description": "Desarrollador y Consultor en C & T Prime, MINSA, Bluedesk. Uso intensivo de Java, Spring Boot, Microservicios, Angular, BD.",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "name": "Certificaciones",
+      "description": "Product Management, Cloud Computing (Azure & AWS), Scrum Profesional, Arquitectura de Software, Business Model Canvas.",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "name": "Educación (UNI)",
+      "description": "Especialización Machine Learning con Python, Experto en Business Intelligence, Adm. de BD Oracle.",
       "link": "#"
     }
   ],
   "skills": [
     { "name": "Java", "icon": "java-original" },
     { "name": "Spring Boot", "icon": "spring-original" },
-    { "name": "Hibernate", "icon": "hibernate-plain" },
-    { "name": "Oracle", "icon": "oracle-original" },
-    { "name": "Git", "icon": "fab fa-git-alt" },
-    { "name": "SCRUM", "icon": "fas fa-project-diagram" },
-    { "name": "Microservices", "icon": "fas fa-cubes" }
+    { "name": "Microservices", "icon": "fas fa-cubes" },
+    { "name": "IA/RAG", "icon": "fas fa-brain" },
+    { "name": "Liderazgo", "icon": "fas fa-users" }
   ]
 }
