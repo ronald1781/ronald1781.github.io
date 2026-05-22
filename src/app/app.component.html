@@ -52,4 +52,36 @@
     </a>
   </nav>
 
+  <!-- Floating Action Buttons -->
+  <div class="floating-actions">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5199995555" target="_blank" class="floating-btn whatsapp-btn" title="Contáctame por WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    
+    <!-- Chatbot Button -->
+    <button class="floating-btn chatbot-btn" (click)="toggleChat()" title="Habla con mi asistente IA">
+      <i class="fa-solid fa-robot"></i>
+    </button>
+  </div>
+
+  <!-- Chatbot Window -->
+  <div class="chatbot-window glass-panel animate-fade-in" *ngIf="isChatOpen">
+    <div class="chat-header">
+      <div class="chat-title">
+        <i class="fa-solid fa-robot"></i> Asistente IA
+      </div>
+      <button class="close-chat" (click)="toggleChat()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-message bot">
+        <p>¡Hola! Soy el asistente virtual de Ronald. ¿En qué te puedo ayudar hoy?</p>
+      </div>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" placeholder="Escribe un mensaje..." class="chat-input" disabled>
+      <button class="send-btn" disabled><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
 </div>

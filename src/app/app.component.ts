@@ -11,4 +11,9 @@ import { RouterModule } from '@angular/router';
 })
 export class AppComponent {
   title = 'ronald-portfolio';
+  isChatOpen = false;
+
+  toggleChat() {
+    this.isChatOpen = !this.isChatOpen;
+  }
 }
